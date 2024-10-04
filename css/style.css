@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+p {
+  color: rgb(55, 0, 255);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  margin-block: 20px;
+}
+
+.input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 190px;
+}
+
+label,
+h5 {
+  color: black;
+  font-family: monospace, sans-serif;
+  line-height: 1.9;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+}
+input::-webkit-input-placeholder {
+  color: blue;
+  font-family: monospace;
+  font-size: 16px;
+}
+input::-moz-placeholder {
+  color: blue;
+  font-family: monospace;
+  font-size: 16px;
+}
+input:-ms-input-placeholder {
+  color: blue;
+  font-family: monospace;
+  font-size: 16px;
+}
+input::-ms-input-placeholder {
+  color: blue;
+  font-family: monospace;
+  font-size: 16px;
+}
+input::placeholder {
+  color: blue;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+button:hover {
+  -webkit-box-shadow: 40px 35px 46px 0px rgb(0, 144, 255);
+          box-shadow: 40px 35px 46px 0px rgb(0, 144, 255);
+}
+
+.answer--wrapper {
+  padding: 10px 20px;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}

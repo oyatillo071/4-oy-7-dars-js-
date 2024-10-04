@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>4 oy 7 dars JS</title>
+    <link rel="shortcut icon" href="./images/favicon-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+        <!-- 1-mashq -->
+        <div class="input-wrapper">
+            <h5>1-mashq 1 dan 100 gacha bo'lgan oraliqda tasodifiy butun sonni chiqaradigan dastur tuzing. Har safar
+                dasturni ishlatganingizda yangi tasodifiy son chiqsin</h5>
+            <button id="first--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>1-Vazifa natija</h2>
+                <p id="first--answer"></p>
+            </div>
+        </div>
+
+
+        <!-- 2-mashq -->
+        <div class="input-wrapper">
+            <label for="second--value">Foydalanuvchi kiritgan sonning kvadrat ildizini hisoblaydigan dastur yozing. Agar
+                foydalanuvchi manfiy son kiritsa, unga "Musbat son kiriting" degan xabarni chiqaring</label>
+            <input type="number" id="second--value" placeholder="Son kiriting:">
+            <button id="second__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>2-Vazifa natija</h2>
+                <p id="second--answer"></p>
+
+            </div>
+        </div>
+
+
+        <!-- 3-mashq -->
+        <div class="input-wrapper">
+            <h5>Foydalanuvchi tomonidan kiritilgan 5 ta sondan eng kattasi va eng kichigini aniqlaydigan dastur yozing
+            </h5>
+            <button id="third__btn">Kodni ishga tushirish</button>
+
+            <div class="answer--wrapper">
+                <h2>3-Vazifa natija</h2>
+                <label for="third--max--answer">Katta son:</label>
+                <p id="third--max--answer"></p>
+                <label for="third--min--answer">Kichik son:</label>
+                <p id="third--min--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 4-mashq -->
+        <div class="input-wrapper">
+            <label for="four--value">Foydalanuvchi tomonidan kiritilgan haqiqiy sonni yuqoriga yaxlitlaydigan va pastga
+                yaxlitlaydigan dastur yozing. Har ikkala natijani ham foydalanuvchiga ko'rsating</label>
+            <input type="number" id="four--value" placeholder="Son kiriting:">
+            <button id="four__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>4-Vazifa natija</h2>
+                <label for="four--first--answer">Yuqoriga yaxlitlash</label>
+                <p id="four--first--answer"></p>
+                <label for="four--second--answer">Pastga yaxlitlash</label>
+                <p id="four--second--answer"></p>
+            </div>
+        </div>
+
+
+        <!-- 5-mashq -->
+        <div class="input-wrapper">
+            <label for="five--value">Foydalanuvchi kiritgan radius bo'yicha aylananing uzunligini hisoblaydigan dastur
+                tuzing.</label>
+            <input type="number" id="five--value" placeholder="Radiusni kiriting:">
+            <button id="five__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>5-Vazifa natija</h2>
+                <label for="five--answer">Uzunlik</label>
+                <p id="five--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 6-mashq -->
+        <div class="input-wrapper">
+            <label for="six--value">Musbat yoki manfiy sonni aniqlash</label>
+            <input type="number" id="six--value" placeholder="Son kiriting:">
+            <button id="six__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>6-Vazifa natija</h2>
+                <p id="six--answer"></p>
+            </div>
+        </div>
+
+
+        <!-- 7-mashq -->
+        <div class="input-wrapper">
+            <label for="seven--value">Yoshi bo'yicha ruxsat berish</label>
+            <input type="number" id="seven--value" placeholder="Son kiriting:">
+            <button id="seven__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>7-Vazifa natija</h2>
+                <p id="seven--answer"></p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 8-mashq -->
+        <div class="input-wrapper">
+            <label for="eight--value">Foydalanuvchi kiritgan son juftmi yoki toq ekanligini ternary operator yordamida
+                aniqlang va natijani "Juft son" yoki "Toq son" deb chiqaring</label>
+            <input type="number" id="eight--value" placeholder="Son kiriting:">
+            <button id="eight__btn">Qabul qilish</button>
+            <div class="answer--wrapper">
+                <h2>8-Vazifa natija</h2>
+                <p id="eight--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 9-mashq -->
+        <div class="input-wrapper">
+            <label for="nine--value">**Masala**: 1 dan 20 gacha bo'lgan sonlar ichidan faqat juft sonlarni chop eting.
+                Juftlikni aniqlash uchun mantiqiy `&&` operatoridan foydalaning.</label>
+            <button id="nine--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>9-Vazifa natija</h2>
+                <p id="nine--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 10-mashq -->
+        <div class="input-wrapper">
+            <label for="ten--value">**Masala**: Foydalanuvchi 10 ta son kiritsin. Sonlar ichidan faqat musbat
+                bo‘lganlarini yig'indisini hisoblang (`for` va mantiqiy `>` operatorlaridan foydalaning).</label>
+            <button id="ten--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>10-Vazifa natija</h2>
+                <p id="ten--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 11-mashq -->
+        <div class="input-wrapper">
+            <label for="eleven--value">**Masala**: 1 dan 100 gacha bo'lgan sonlar ichidan faqat 30 va 50 orasidagi
+                sonlarni chop eting (`for` tsikli va `&&` operatoridan foydalaning)</label>
+            <button id="eleven--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>11-Vazifa natija</h2>
+                <p id="eleven--answer"></p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 12-mashq -->
+        <div class="input-wrapper">
+            <label for="twelve--value">**Masala**: Foydalanuvchi 15 ta son kiritsin. `for` tsikli va mantiqiy `>=` yoki
+                `<=` operatorlaridan foydalanib, nechta musbat va nechta manfiy son kiritinganini aniqlang.</label>
+                    <button id="twelve--btn">Kodni ishga tushurish</button>
+                    <div class="answer--wrapper">
+                        <h2>12-Vazifa natija</h2>
+                        <label for="twelve--ngt--answer">Manfiy</label>
+                        <p id="twelve--ngt--answer"></p>
+                        <label for="twelve--pst--answer">Musbat</label>
+                        <p id="twelve--pst--answer"></p>
+                    </div>
+        </div>
+
+
+
+        <!-- 13-mashq -->
+        <div class="input-wrapper">
+            <label for="thirteen--value">**Masala**: 1 dan 50 gacha bo‘lgan sonlar ichidan faqat toq sonlarning
+                yig‘indisini hisoblang (`for` tsikli va `%` mantiqiy operatoridan foydalaning)</label>
+            <button id="thirteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>13-Vazifa natija</h2>
+                <p id="thirteen--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 14-mashq -->
+        <div class="input-wrapper">
+            <label for="fourteen--value">**Masala**: Foydalanuvchi 5 ta odamning yoshini kiritsin. `for` tsikli va
+                mantiqiy `>=` operatoridan foydalanib, agar foydalanuvchi 18 yoshdan katta bo'lsa, "Voyaga yetgan" degan
+                xabar chiqaring, aks holda "Voyaga yetmagan" degan xabar chiqaring.</label>
+            <button id="fourteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>14-Vazifa natija</h2>
+                <p id="fourteen--answer"></p>
+            </div>
+        </div>
+
+
+        <!-- 15-mashq -->
+        <div class="input-wrapper">
+            <label for="fiveteen--value">**Masala**: 1 dan 100 gacha bo'lgan sonlardan nechta juft son borligini
+                hisoblang (`for` tsikli va `%` operatoridan foydalaning).</label>
+            <button id="fiveteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>15-Vazifa natija</h2>
+                <p id="fiveteen--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 16-mashq -->
+        <div class="input-wrapper">
+            <label for="sixteen--value">**Masala**: 10 ta tasodifiy son kiritilsin. `for` tsikli va `&&` mantiqiy
+                operatoridan foydalanib, nechta son 5 va 10 orasida ekanligini aniqlang.</label>
+            <button id="sixteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>16-Vazifa natija</h2>
+                <p id="sixteen--answer"></p>
+            </div>
+        </div>
+
+
+        <!-- 17-mashq -->
+        <div class="input-wrapper">
+            <label for="seventeen--value">**Masala**: Foydalanuvchi 10 ta son kiritadi. `for` tsikli va `>` mantiqiy
+                operatoridan foydalanib, faqat musbat sonlarni chop eting.</label>
+            <button id="seventeen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>17-Vazifa natija</h2>
+                <p id="seventeen--answer"></p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 18-mashq -->
+        <div class="input-wrapper">
+            <label for="eightteen--value">**Masala**: Foydalanuvchi kiritgan 15 ta son orasida juft yoki manfiy bo‘lgan
+                sonlar sonini hisoblang (`for` tsikli va `||` mantiqiy operatoridan foydalaning).</label>
+            <button id="eightteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>18-Vazifa natija</h2>
+                <p id="eightteen--answer"></p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 19-mashq -->
+        <div class="input-wrapper">
+            <label for="nineteen--value">**Masala**: 1 dan 50 gacha bo‘lgan sonlar orasida faqat 3 ga bo‘linadigan
+                sonlarni chop eting (`for` tsikli va `%` operatoridan foydalaning).</label>
+            <button id="nineteen--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>19-Vazifa natija</h2>
+                <p id="nineteen--answer"></p>
+            </div>
+        </div>
+
+
+
+        <!-- 20-mashq -->
+        <div class="input-wrapper">
+            <label for="twenty--value">**Masala**: Foydalanuvchi 10 ta raqam kiritsin. `for` tsikli va `>=` mantiqiy
+                operatoridan foydalanib, faqat 50 dan katta sonlarni chop eting.</label>
+            <button id="twenty--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>20-Vazifa natija</h2>
+                <p id="twenty--answer"></p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 21-mashq -->
+        <div class="input-wrapper">
+            <label for="twentyone--value">**Masala**: Foydalanuvchi 10 ta son kiritsin. `for` tsikli va `===` mantiqiy operatoridan foydalanib, kiritilgan sonlar orasida 0 bor yoki yo‘qligini aniqlang. Agar bo'lsa, "0 mavjud" deb chop eting.</label>
+                  <button id="twentyone--btn">Kodni ishga tushurish</button>
+            <div class="answer--wrapper">
+                <h2>21-Vazifa natija</h2>
+                <p id="twentyone--answer"></p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
