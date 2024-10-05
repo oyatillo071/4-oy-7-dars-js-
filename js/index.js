@@ -27,23 +27,16 @@ document.getElementById('second__btn').addEventListener('click', function () {
 // 3-mashq Eng katta va eng kichik sonlarni aniqlash
 document.getElementById('third__btn').addEventListener('click', function () {
 
-    let thirdInput = +prompt(1 + "-sonni kiriting");
+    let thirdFirstInput = +prompt("1-sonni kiriting");
+    let thirdSecondInput = +prompt("2-sonni kiriting");
+    let thirdThirdInput = +prompt( "3-sonni kiriting");
+    let thirdFourdInput = +prompt("4-sonni kiriting");
+    let thirdFiveInput = +prompt("5-sonni kiriting");
 
-    let thirdMax = thirdInput;
-    let thirdMin = thirdInput;
-    let thirdUserInput;
+    let thirdMax=Math.max(thirdFirstInput,thirdSecondInput,thirdThirdInput,thirdFourdInput,thirdFiveInput)
+    let thirdMin=Math.min(thirdFirstInput,thirdSecondInput,thirdThirdInput,thirdFourdInput,thirdFiveInput)
 
-    for (let i = 2; i <= 5; i++) {
-        thirdUserInput = +prompt(i + "-sonni kiriting");
-
-        if (thirdUserInput > thirdMax) {
-            thirdMax = thirdUserInput;
-        }
-
-        if (thirdMin > thirdInput) {
-            thirdMin = thirdUserInput;
-        }
-    }
+    
 
     document.getElementById('third--max--answer').innerHTML = thirdMax;
     document.getElementById('third--min--answer').innerHTML = thirdMin;
@@ -73,8 +66,8 @@ document.getElementById('four__btn').addEventListener('click', function () {
 
 document.getElementById('five__btn').addEventListener('click', function () {
     let fiveValue = document.getElementById('five--value').value;
-    let piValue = Math.PI;
-    let fiveAnswer = 2 * piValue * fiveValue;
+    
+    let fiveAnswer = 2 * Math.PI * fiveValue;
 
     document.getElementById('five--answer').innerHTML = fiveAnswer;
 });
@@ -283,7 +276,7 @@ document.getElementById('nineteen--btn').addEventListener('click', function () {
 
 
 
-// 14-mashq Berilgan raqamlar ichida faqat katta sonlarni ko'rsating
+// 20-mashq Berilgan raqamlar ichida faqat katta sonlarni ko'rsating
 document.getElementById('twenty--btn').addEventListener('click', function () {
     let twentyAnswer = " ";
     let twentyValue;
@@ -301,18 +294,17 @@ document.getElementById('twenty--btn').addEventListener('click', function () {
 
 
 
-// 15-mashq Foydalanuvchi tomonidan kiritilgan sonlar orasida 0 ni topish
+// 21-mashq Foydalanuvchi tomonidan kiritilgan sonlar orasida 0 ni topish
 document.getElementById('twentyone--btn').addEventListener('click',function(){
 let twentyoneValue;
 let twentyoneAnswer="0 mavjud emas";
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i = 10; i++) {
 
     twentyoneValue=+prompt(i+"-sonni kiriting:");
     
     if (twentyoneValue===0) {
         twentyoneAnswer="0 mavjud";
-    }
-
+    }z
 }
 
     document.getElementById('twentyone--answer').innerHTML=twentyoneAnswer;
